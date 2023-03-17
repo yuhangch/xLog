@@ -70,7 +70,7 @@ specifiers:
   ioredis: 5.3.1
   js-yaml: 4.1.0
   jsonfeed-to-rss: ^3.0.6
-  langchain: ^0.0.35
+  langchain: ^0.0.36
   lint-staged: 13.2.0
   lottie-react: ^2.4.0
   mdast-util-to-string: 3.1.1
@@ -171,7 +171,7 @@ dependencies:
   ioredis: 5.3.1
   js-yaml: 4.1.0
   jsonfeed-to-rss: 3.0.6
-  langchain: 0.0.35
+  langchain: 0.0.36
   lottie-react: 2.4.0_biqbaboplfbrettd7655fr4n2y
   mdast-util-to-string: 3.1.1
   mdast-util-toc: 6.1.1
@@ -8381,10 +8381,10 @@ packages:
     resolution: {integrity: sha512-ymToLHqL02udwVdbkowNpzjFd6UzozMtshPQKVi5k1EjKRqKqBrOnE9QbLEb0/pV76SAiIT13hdL8R6suc+f3g==}
     dev: true
 
-  /langchain/0.0.35:
-    resolution: {integrity: sha512-W8EYbpoVZxB8IWmWIVtek85NEYoTIfHGQQKPCI6LNykbZAKTusCLYBud11r70m5II1nV7nUPxlCTzfMnwxQk5Q==}
+  /langchain/0.0.36:
+    resolution: {integrity: sha512-wBucnmDSWm+Fkjum7DBrkyr7pil1L6RPgv1flF40yHKrcnCPxvbbH5AgqL4rRH3e6r0WKIri/1K9VjWWty676w==}
     peerDependencies:
-      '@dqbd/tiktoken': ^0.4.0
+      '@dqbd/tiktoken': ^1.0.2
       '@huggingface/inference': ^1.5.1
       '@pinecone-database/pinecone': ^0.0.10
       '@supabase/supabase-js': ^2.10.0
